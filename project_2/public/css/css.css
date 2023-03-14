@@ -1,0 +1,66 @@
+ h2 {
+     background: linear-gradient(90deg, #26bcee 7.75%, #0067b2 91.83%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+     font-size: 32px;
+     font-weight: 600;
+     margin-bottom: 20px;
+ }
+
+ section {
+     padding: 20px 0;
+ }
+ .nav-tabs{
+    border-bottom: none;
+ }
+ thead{
+    background: linear-gradient(90deg,#f8a900 0%,#ed7304 100%);
+    color: white;
+ }
+ tr:hover{
+    background: linear-gradient(90deg,#f8a900 0%,#ed7304 100%);
+    color: white;
+ }
+
+ /* .nav-item{
+     margin: 0 15px px;
+     padding: 10px 30px;
+     background: rgba(43,43,43,0.1);
+     border-radius: 50px;
+     cursor: pointer;
+ }
+ .nav-item:active {
+    background: linear-gradient(90deg, #f8a900 0%, #ed7304 100%);
+ } */
+
+ .nav-tabs .nav-link{
+     margin: 0 15px px;
+     padding: 10px 30px;
+     background: rgba(43,43,43,0.1);
+     border-radius: 50px;
+     cursor: pointer;
+    color: #495057;
+    margin: 5px 15px;
+ }
+
+ .nav-tabs .nav-link.active {
+    color: white;
+    background: linear-gradient(90deg, #f8a900 0%, #ed7304 100%);
+    font-weight: bold;
+}
+
+
+ @media screen and (min-width: 768px) {
+     /* .main-table{
+        background-color: black;
+    } */
+ }
+
+ @media screen and (max-width:768px) {
+        img{
+            width: 90%;
+        }
+
+ }

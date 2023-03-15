@@ -24,17 +24,6 @@
     color: white;
  }
 
- /* .nav-item{
-     margin: 0 15px px;
-     padding: 10px 30px;
-     background: rgba(43,43,43,0.1);
-     border-radius: 50px;
-     cursor: pointer;
- }
- .nav-item:active {
-    background: linear-gradient(90deg, #f8a900 0%, #ed7304 100%);
- } */
-
  .nav-tabs .nav-link{
      margin: 0 15px px;
      padding: 10px 30px;

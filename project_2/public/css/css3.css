@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-content {
+    max-width: 70%;
+}
+
+.info-text {
+    width: 22%;
+}
+
+.main-content {
+    display: flex;
+    text-align: center;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+    padding: 10px 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-border-width: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 8px 10px;
+}
+
+.main-table {
+    width: 100%;
+}
+
+.list-card {
+    display: flex;
+}
+
+.card-info {
+    max-height: 80%;
+    background-color: #f3eee8;
+    padding: 20px 45px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.card-info hr {
+    margin-top: 30px;
+}
+
+.card-info .depend {
+    margin-left: -10px;
+}
+
+.discount {
+    margin-top: 20px;
+}
+
+.discount button {
+    padding: 2px 15px;
+    border-radius: 50px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.discount button h5 {
+    margin-top: 5%;
+}
+
+.total {
+    margin: 10px 0;
+}
+
+.total h5 {
+    margin: 2%;
+}
+
+.light-btn {
+    padding: 10px 35px;
+    border-radius: 50px;
+    background-color: white;
+    color: #F7971E;
+    font-weight: bold;
+    border: none;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: -20px;
+}
+
+li {
+    font-size: 15px;
+}
+
+b {
+    text-decoration: underline;
+}
+
+.card-info:hover {
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    color: white;
+    transform: translateY(-20px);
+    transition: 0.7s;
+}
+
+.card-info:hover .discount button {
+    /* background: linear-gradient(to right, #FFD200, #F7971E); */
+    color: white;
+    border: 2px solid white;
+}
+
+li a {
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .main-content {
+        display: inline;
+    }
+
+    .info-text {
+        width: 100%;
+    }
+
+    .info-text ul {
+        display: flex;
+    }
+
+    .list-card {
+        width: 100%;
+    }
+
+    .card-info {
+        width: 500px;
+    }
+
+    .nav-tabs {
+        padding: 2px 5px;
+    }
+
+    li {
+        font-size: 12px;
+        padding: 2px 0;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .card-info hr {
+        margin-top: 2%;
+    }
+
+    h5 {
+        font-size: 17px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .discount button h5 {
+        font-size: 12px;
+    }
+}

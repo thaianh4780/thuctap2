@@ -1,0 +1,134 @@
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+.top-address {
+    background-image: radial-gradient(circle at 75%, #ebcdeb -20%, #0f35d3, #2c1ee8);
+}
+.header .top-address .top-info {
+    margin-left: 8%;
+    margin-top: 1%;
+    color: white;
+    float: left;
+}
+
+.header .top-address .space {
+    margin-left: 0;
+}
+
+.header .top-address .top-info p {
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: roboto;
+    padding-bottom: 0;
+}
+
+.header .top-address .top-info i {
+    margin-right: 3%;
+    padding-top: .5%;
+}
+
+.header .top-banner .top-info p {
+    width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: roboto;
+    padding-bottom: 0;
+}
+
+.header .top-banner .top-info h2 {
+    color: #396afc;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.header .top-banner .top-hotline p {
+    font-size: 40px;
+    display: block;
+    font-weight: bold;  
+}
+.header .top-banner .top-hotline i{
+    font-size: 40px;
+    font-weight: bold; 
+    padding-top: 2%; 
+    margin-right: -20%;
+}
+
+.top-info a{
+    text-align: center;
+    padding: 20px 0 ;
+}
+.navbar{
+    background-image: radial-gradient(circle at 75%, #ebcdeb -20%, #0f35d3, #2c1ee8);
+}
+.nav-link , .nav-link i{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: azure;
+}
+/* header */
+
+.banner .swiper-slide img{
+    width: 90%;
+    margin: 20px;
+}
+
+.hot-water .swiper-slide .card{
+    width: 90%;
+    margin: 20px;
+    border:0px;
+}
+.hot-water .swiper-wrapper{
+    margin-left: -1%;
+}
+.hot-water h2{
+    color: #396afc;
+}
+.vein,.more-product{
+    margin: 2% 0;
+}
+.vein h2 , .more-product h2{
+    padding-bottom: 2%;
+}
+
+.decorate-text{
+    position: relative;
+    color: #396afc;
+}
+.decorate-text::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 38%;
+    border-width: 1px;
+    border-color: #396afc;
+    top: 17px;
+    height: 6px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.decorate-text::after {
+    content: "";
+    width: 38%;
+    position: absolute;
+    border-width: 1px;
+    border-color: #396afc;
+    top: 17px;
+    right: 0;
+    height: 6px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+/* The Image container */
+.img-hover-zoom {
+    height: 300px; /* Modify this according to your need */
+    overflow: hidden; /* Removing this will break the effects */
+  }

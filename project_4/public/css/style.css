@@ -83,7 +83,7 @@ a{
 .hot-water .swiper-slide .card{
     width: 90%;
     margin: 20px;
-    border:0px;
+    /* border:0px; */
 }
 .hot-water .swiper-wrapper{
     margin-left: -1%;

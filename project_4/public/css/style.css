@@ -64,6 +64,8 @@ a{
 .top-info a{
     text-align: center;
     padding: 20px 0 ;
+    width: 80%;
+    margin-left: 15%;
 }
 .navbar{
     background-image: radial-gradient(circle at 75%, #ebcdeb -20%, #0f35d3, #2c1ee8);
@@ -72,6 +74,22 @@ a{
     text-transform: uppercase;
     font-weight: bold;
     color: azure;
+}
+.content{
+    margin: 0 auto;
+}
+.content .container img{
+    padding-left: 5%;
+}
+.main-content{
+    padding-left: 5%;
+}
+.main-content h2{
+    padding-top:2% ;
+}
+
+.top-info a p{
+    margin-left: -5%;
 }
 /* header */
 
@@ -105,8 +123,8 @@ a{
 .decorate-text::before{
     content: "";
     position: absolute;
-    left: 0;
-    width: 38%;
+    left: 20%;
+    width: 18%;
     border-width: 1px;
     border-color: #396afc;
     top: 17px;
@@ -117,18 +135,55 @@ a{
 
 .decorate-text::after {
     content: "";
-    width: 38%;
+    width: 18%;
     position: absolute;
     border-width: 1px;
     border-color: #396afc;
     top: 17px;
-    right: 0;
+    right: 20%;
     height: 6px;
     border-top-style: solid;
     border-bottom-style: solid;
 }
 /* The Image container */
-.img-hover-zoom {
-    height: 300px; /* Modify this according to your need */
-    overflow: hidden; /* Removing this will break the effects */
+.swiper-slide img:hover {
+    -webkit-transition: opacity .6s,-webkit-filter .6s,-webkit-transform .6s,-webkit-box-shadow .3s;
+    transition: opacity .6s,-webkit-filter .6s,-webkit-transform .6s,-webkit-box-shadow .3s;
+    -o-transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+    transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+    transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s,-webkit-filter .6s,-webkit-transform .6s,-webkit-box-shadow .3s;
   }
+
+  @keyframes trin {
+
+    from {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+    20%, 32%, 44%, 56%, 68% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    23%, 35%, 47%, 59%, 71% {
+        transform: rotate3d(0,0,1,15deg);
+    }
+    26%, 38%, 50%, 62%, 74% {
+        transform: rotate3d(0,0,1,0deg);
+    }
+    29%, 41%, 53%, 65%, 77% {
+        transform: rotate3d(0,0,1,-15deg);
+    }
+    80% {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+
+}
+.card :hover h5{
+    color:#396afc;
+    transition: .5s;
+}
+.trin-trin
+{
+    animation-name: trin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
